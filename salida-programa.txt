@@ -1,0 +1,215 @@
+PS C:\Users\PC\Documents\ParcialElixirMensajeria> .\ejecutar.bat
+Ingrese un servicio adicional
+(repartidor;zona;dia;kilometros;retraso)
+o Enter para omitir: 
+No se ingresó servicio adicional.
+
+========== R1 - SERVICIOS RECHAZADOS ==========
+Servicio rechazado: %{repartidor: "M99", zona: "Z1", dia: 1, kilometros: 10, retraso: 0}
+Motivo: repartidor_desconocido
+Servicio rechazado: %{repartidor: "M98", zona: "Z99", dia: 7, kilometros: 0, retraso: 181}
+Motivo: repartidor_desconocido
+Servicio rechazado: %{repartidor: "M01", zona: "Z99", dia: 1, kilometros: 10, retraso: 0}
+Motivo: zona_desconocida
+Servicio rechazado: %{repartidor: "M02", zona: "Z98", dia: 0, kilometros: 46, retraso: 181}
+Motivo: zona_desconocida
+Servicio rechazado: %{repartidor: "M01", zona: "Z1", dia: 0, kilometros: 10, retraso: 0}
+Motivo: dia_invalido
+Servicio rechazado: %{repartidor: "M02", zona: "Z2", dia: 2.5, kilometros: 46, retraso: 181}
+Motivo: dia_invalido
+Servicio rechazado: %{repartidor: "M01", zona: "Z1", dia: 1, kilometros: 0, retraso: 0}
+Motivo: kilometros_fuera_de_rango
+Servicio rechazado: %{repartidor: "M02", zona: "Z2", dia: 2, kilometros: 45.1, retraso: 181}
+Motivo: kilometros_fuera_de_rango
+Servicio rechazado: %{repartidor: "M01", zona: "Z1", dia: 1, kilometros: 10, retraso: -30.1}
+Motivo: retraso_invalido
+Servicio rechazado: %{repartidor: "M02", zona: "Z2", dia: 2, kilometros: 10, retraso: 180.1}
+Motivo: retraso_invalido
+repartidor_desconocido: 2
+zona_desconocida: 2
+dia_invalido: 2
+kilometros_fuera_de_rango: 2
+retraso_invalido: 2
+
+========== R2 - ZONAS POR DENSIDAD ==========
+Z1 - Centro: 1017.00 km | Densidad: 156.46 km/km²
+Z3 - Sur: 990.50 km | Densidad: 123.81 km/km²
+Z2 - Norte: 1034.50 km | Densidad: 101.42 km/km²
+Z4 - Occidente: 967.50 km | Densidad: 77.40 km/km²
+
+========== R3 - META DIARIA ==========
+Día 1: 720.00 km | Meta alcanzada: true
+Día 2: 756.00 km | Meta alcanzada: true
+Día 3: 720.00 km | Meta alcanzada: true
+Día 4: 711.00 km | Meta alcanzada: true
+Día 5: 742.50 km | Meta alcanzada: true
+Día 6: 360.00 km | Meta alcanzada: false
+Meta alcanzada todos los días: false
+Meta alcanzada al menos un día: true
+
+========== R4 - LIQUIDACIÓN SEMANAL ==========
+1. M09 - Laura Moreno | 445.50 km
+Servicios: $1136750.00 | Bonificaciones: $60000.00 | Alquiler: $0.00 | Neto: $1196750.00
+2. M08 - Daniel Castro | 445.50 km
+Servicios: $1079825.00 | Bonificaciones: $60000.00 | Alquiler: $0.00 | Neto: $1139825.00
+3. M07 - Valentina Díaz | 445.50 km
+Servicios: $1020487.50 | Bonificaciones: $60000.00 | Alquiler: $0.00 | Neto: $1080487.50
+4. M01 - Ana Torres | 445.50 km
+Servicios: $1052750.00 | Bonificaciones: $60000.00 | Alquiler: $60000.00 | Neto: $1052750.00
+5. M06 - Mateo Ruiz | 445.50 km
+Servicios: $970475.00 | Bonificaciones: $60000.00 | Alquiler: $0.00 | Neto: $1030475.00
+6. M02 - David López | 445.50 km
+Servicios: $1003437.50 | Bonificaciones: $60000.00 | Alquiler: $60000.00 | Neto: $1003437.50
+7. M05 - Sofía Martínez | 445.50 km
+Servicios: $936900.00 | Bonificaciones: $60000.00 | Alquiler: $0.00 | Neto: $996900.00
+8. M03 - Camila Pérez | 445.50 km
+Servicios: $949937.50 | Bonificaciones: $60000.00 | Alquiler: $60000.00 | Neto: $949937.50
+9. M04 - Luis Gómez | 445.50 km
+Servicios: $925000.00 | Bonificaciones: $60000.00 | Alquiler: $60000.00 | Neto: $925000.00
+10. M10 - Santiago Herrera | 0.00 km
+Servicios: $0.00 | Bonificaciones: $0.00 | Alquiler: $0.00 | Neto: $0.00
+
+========== R5 - PRIMEROS POR DÍA ==========
+Día 1:
+M01 - Ana Torres: 80.00 km
+M02 - David López: 80.00 km
+M03 - Camila Pérez: 80.00 km
+M04 - Luis Gómez: 80.00 km
+M05 - Sofía Martínez: 80.00 km
+M06 - Mateo Ruiz: 80.00 km
+M07 - Valentina Díaz: 80.00 km
+M08 - Daniel Castro: 80.00 km
+M09 - Laura Moreno: 80.00 km
+Día 2:
+M01 - Ana Torres: 84.00 km
+M02 - David López: 84.00 km
+M03 - Camila Pérez: 84.00 km
+M04 - Luis Gómez: 84.00 km
+M05 - Sofía Martínez: 84.00 km
+M06 - Mateo Ruiz: 84.00 km
+M07 - Valentina Díaz: 84.00 km
+M08 - Daniel Castro: 84.00 km
+M09 - Laura Moreno: 84.00 km
+Día 3:
+M01 - Ana Torres: 80.00 km
+M02 - David López: 80.00 km
+M03 - Camila Pérez: 80.00 km
+M04 - Luis Gómez: 80.00 km
+M05 - Sofía Martínez: 80.00 km
+M06 - Mateo Ruiz: 80.00 km
+M07 - Valentina Díaz: 80.00 km
+M08 - Daniel Castro: 80.00 km
+M09 - Laura Moreno: 80.00 km
+Día 4:
+M01 - Ana Torres: 79.00 km
+M02 - David López: 79.00 km
+M03 - Camila Pérez: 79.00 km
+M04 - Luis Gómez: 79.00 km
+M05 - Sofía Martínez: 79.00 km
+M06 - Mateo Ruiz: 79.00 km
+M07 - Valentina Díaz: 79.00 km
+M08 - Daniel Castro: 79.00 km
+M09 - Laura Moreno: 79.00 km
+Día 5:
+M01 - Ana Torres: 82.50 km
+M02 - David López: 82.50 km
+M03 - Camila Pérez: 82.50 km
+M04 - Luis Gómez: 82.50 km
+M05 - Sofía Martínez: 82.50 km
+M06 - Mateo Ruiz: 82.50 km
+M07 - Valentina Díaz: 82.50 km
+M08 - Daniel Castro: 82.50 km
+M09 - Laura Moreno: 82.50 km
+Día 6:
+M01 - Ana Torres: 40.00 km
+M02 - David López: 40.00 km
+M03 - Camila Pérez: 40.00 km
+M04 - Luis Gómez: 40.00 km
+M05 - Sofía Martínez: 40.00 km
+M06 - Mateo Ruiz: 40.00 km
+M07 - Valentina Díaz: 40.00 km
+M08 - Daniel Castro: 40.00 km
+M09 - Laura Moreno: 40.00 km
+Primer lugar en más días:
+M01 - Ana Torres: 6 días
+M02 - David López: 6 días
+M03 - Camila Pérez: 6 días
+M04 - Luis Gómez: 6 días
+M05 - Sofía Martínez: 6 días
+M06 - Mateo Ruiz: 6 días
+M07 - Valentina Díaz: 6 días
+M08 - Daniel Castro: 6 días
+M09 - Laura Moreno: 6 días
+
+========== R6 - MEJOR PUNTUALIDAD PONDERADA ==========
+M09 - Laura Moreno: 11.45 minutos ponderados | 12 servicios
+
+========== R7 - TOTAL PAGADO Y COSTO POR KILÓMETRO ==========
+Total pagado: $9375562.50
+Kilómetros válidos: 4009.50
+Costo promedio pagado por kilómetro: $2338.34
+
+========== R8 - REPARTIDORES EN TODAS LAS ZONAS ==========
+M01 - Ana Torres
+M02 - David López
+M03 - Camila Pérez
+M04 - Luis Gómez
+M05 - Sofía Martínez
+M06 - Mateo Ruiz
+M07 - Valentina Díaz
+M08 - Daniel Castro
+M09 - Laura Moreno
+
+Ingrese el código del repartidor para su comprobante: M03
+
+========== COMPROBANTE DEL REPARTIDOR ==========
+Camila Pérez - M03
+Día 1: 80.00 km | Servicios: $190000.00 | Bonificación: $15000.00
+Día 2: 84.00 km | Servicios: $189000.00 | Bonificación: $15000.00
+Día 3: 80.00 km | Servicios: $180000.00 | Bonificación: $15000.00
+Día 4: 79.00 km | Servicios: $161250.00 | Bonificación: $0.00
+Día 5: 82.50 km | Servicios: $154687.50 | Bonificación: $15000.00
+Día 6: 40.00 km | Servicios: $75000.00 | Bonificación: $0.00
+Suma de servicios: $949937.50
+Suma de bonificaciones: $60000.00
+Descuento por alquiler: $60000.00
+Neto a pagar: $949937.50
+
+========== INVESTIGACIÓN - KEYWORD LISTS, MAP.MERGE Y MEDICIONES ==========
+Ranking por kilómetros de mayor a menor (configurado con keyword list):
+M01: 445.50 km
+M02: 445.50 km
+M03: 445.50 km
+M04: 445.50 km
+M05: 445.50 km
+M06: 445.50 km
+M07: 445.50 km
+M08: 445.50 km
+M09: 445.50 km
+M10: 0.00 km
+Kilómetros propios R3: %{1 => 720, 2 => 756, 3 => 720.0, 4 => 711, 5 => 742.5, 6 => 360}
+Empresa aliada: %{1 => 580.5, 2 => 430, 3 => 510, 5 => 625, 7 => 180}
+Map.merge/2 reemplaza coincidencias: %{1 => 580.5, 2 => 430, 3 => 510, 4 => 711, 5 => 625, 6 => 360, 7 => 180}
+Map.merge/3 suma coincidencias: %{
+  1 => 1300.5,
+  2 => 1186,
+  3 => 1230.0,
+  4 => 711,
+  5 => 1367.5,
+  6 => 360,
+  7 => 180
+}
+El día 7 queda en la combinación con 180 km, pero no amplía los seis días de operación propios.
+Medición de 100 repeticiones: filtros 1024 microsegundos; reduce 409 microsegundos.
+Resultados de ambos métodos iguales: true. Los tiempos varían entre ejecuciones.
+Comparación de promedios para justificar R6 con los datos del grupo:
+M01: simple 14.92 min; ponderado 13.53 min
+M02: simple 22.25 min; ponderado 20.35 min
+M03: simple 41.17 min; ponderado 34.38 min
+M04: simple 54.63 min; ponderado 50.69 min
+M05: simple 49.75 min; ponderado 56.81 min
+M06: simple 42.67 min; ponderado 46.25 min
+M07: simple 37.17 min; ponderado 39.53 min
+M08: simple 29.83 min; ponderado 34.20 min
+M09: simple 10.92 min; ponderado 11.45 min
+PS C:\Users\PC\Documents\ParcialElixirMensajeria> 
