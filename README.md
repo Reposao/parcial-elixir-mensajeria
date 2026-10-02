@@ -8,13 +8,9 @@
 Calcular la liquidación semanal de los repartidores y generar
 los ocho reportes exigidos en el parcial.
 
-## Punto de partida y uso de IA
-Contamos con una versión de referencia generada con ayuda de
-ChatGPT y probada antes de iniciar este repositorio.
+## Uso de inteligencia artificial
 
-En este repositorio iremos incorporando, revisando y probando
-sus módulos. Cada integrante registrará sus aportes reales y
-deberá comprender y explicar el código que se entregue.
+Utilizamos ChatGPT como apoyo para resolver dudas de Elixir, generar una propuesta inicial de código y orientar las pruebas y la documentación. Durante la integración revisamos los módulos y comprobamos sus resultados. La responsabilidad de comprender, explicar y modificar la solución corresponde a ambos integrantes.
 
 ## Restricciones
 Sin recursividad, structs propios, lectura o escritura con File,
